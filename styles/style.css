@@ -2,9 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: Raleway, serif;
   max-width: 1440px;
   margin: 0 auto;
+  font-family: Raleway, serif;
 }
 
 
@@ -31,7 +31,7 @@ body {
 
 
 .header,
-.footer {
+.footer{
   margin: auto;
 }
 
@@ -301,9 +301,8 @@ body {
 /*footer_section*/
 
 .footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
- 
+  display: flex;
+  justify-content: space-between;
   gap: 100px;
   max-width: 100%;
   margin: auto;
@@ -333,26 +332,28 @@ body {
 }
 
 .address__footer {
-  /* align-self: flex-start;
-  color: #000;
-  font-family: Raleway, serif;
-  font-weight: 400;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24.3px;
-  text-underline-offset: 5px; */
+  justify-self: left;
   font-size: 18px;
   line-height: 15px;
-  justify-self: left;
   
 }
 
+
 .footer__social-list {
   display: flex;
-  justify-content: end;
-  column-gap: 50px;
+  gap: 48px;
+  width: 240px;
+  height: 48px;
+  list-style: none;
+ 
+}
+
+.footer__social-link {
+  display: block;
+  width: 48px;
+  height:  48px;
 }
 
 .footer__social-icon {
-  height: 48px;
+  object-fit: cover;
 }
