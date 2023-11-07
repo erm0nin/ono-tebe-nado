@@ -117,14 +117,14 @@ body {
 }
 
 .aligned-text_center {
-  line-height: 100%;
   margin-top: 20px;
+  line-height: 100%;
   text-align: center;
 }
 
 .aligned-text_right {
-  line-height: 100%;
   margin-top: 20px;
+  line-height: 100%;
   text-align: right;
 }
 
@@ -137,8 +137,8 @@ body {
   justify-content: flex-end;
   align-items: center;
   gap: 78px;
-  color: #ffffff;
   padding-right: 50px;
+  color: #ffffff;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -249,9 +249,9 @@ body {
   display: grid;
   grid-template-columns: 430px 1fr;
   column-gap: 25px;
-  margin: auto;
   width: 100%;
-  max-width: 1340px; 
+  max-width: 1340px;
+  margin: auto;
 }
 
 .about__logo {
