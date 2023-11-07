@@ -253,6 +253,7 @@ body {
   max-width: 1340px; 
   margin: auto;  
 }
+
 .about__logo {
   display: flex;
   justify-content: center;
@@ -323,7 +324,6 @@ body {
 .address__footer {
   justify-self: left;
 }
-
 
 .footer__social-list {
   display: flex;
