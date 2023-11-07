@@ -249,9 +249,9 @@ body {
   display: grid;
   grid-template-columns: 430px 1fr;
   column-gap: 25px;
-  width: 100%;
+  margin: auto;
   max-width: 1340px; 
-  margin: auto;  
+  width: 100%;
 }
 
 .about__logo {
